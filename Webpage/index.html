@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage API NLP Comentarios</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+</head>
+<body>
+    <h1>Procesador de comentarios</h1>
+    <div id="texto"><h4>¡Bienvenido/a!<br> Por favor escribe tu comentario,<em> este debe ser en inglés,</em> en la caja y presiona "Evaluar". te entregaremos una evaluación de tu comentario, si nos parece Positivo, Negativo o Neutral y que tan Subjetivo es en una escala del 0 al 1.</h4></div>
+    <form id="apiForm">
+        <input type="text" id="inputText" placeholder="Ingresa tu texto...">
+        <button type="submit">Evaluar</button>
+    </form>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
