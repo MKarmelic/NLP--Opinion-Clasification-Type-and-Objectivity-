@@ -6,16 +6,17 @@ Se construyó una API que cumple con la función de evaluar comentarios, entrega
 
 ## ¿Cómo consumir la API?
 
-Ingresar al siguiente link: https://mkarmelic.pythonanywhere.com/
-La API se encuentra alojada en dicha pagina web que cuple con la función sencilla de permitir que cualquier persona escriba un comentario y este será evaluado, entregando el resultado en la misma página web.
+Previamente alojada en https://mfkarmelic.pythonanywhere.com/ por limitantes del servidor se presenta ahora Offline.
+La API se encuentra ahora en este Github, con todo lo necesario para poder correrla.
 
-En este repositorio de GitHub se pueden encontrar todos los archivos alojados en la web, esto consta de:
+En este repositorio de GitHub se pueden encontrar todos los archivos necesario, esto consta de:
 - index.html
 - style.css
 - script.js
 - app.py
+- carpeta 'data' con modelos previamente trabajados
 
-La misma app.py puede montarse en cualquier otro servidor y obtener los mismos resultados via POST, ya que ese es el método que se está utilizando a través de Javascript.
+Esta API uede montarse en un servidor y obtener los mismos resultados via POST, ya que ese es el método que se está utilizando a través de Javascript en la web html propuesta.
 
 ## ¿Cómo funciona?
 
@@ -26,3 +27,15 @@ La API toma el texto que se ingresa en el recuadro una vez que se clickea el bot
 ## ¿Qué aplicaciones tiene?
 
 Esta API podría utilizarse como punto intermedio en cualquier encuesta o sección de toma de comentarios digital. Al ser una API intermediaria, nos permite rellenar las bases de datos con más información de la que originalmente se publica en el comentario, permitiendo bases de datos más robustas y que nos permitan mejor toma de decisiones.
+
+### ¿Como la hago funcionar Offline?
+
+- Debes descagar todo lo que se encuentra en este Github a excepción del archivo 'Pres PM7'.
+- En una carpeta Ubica todos los contenidos y extrae data.rar, esto quedará en una subcarpeta.
+- Debes instalar utilizando ``$pip install requirements.txt``
+- Una vez instalado, puedes iniciar app.py (Personalmente utilizo PyCharm, pero puede ser directamente)
+- Obtén el servidor local donde está corriendo, el default es ``http://127.0.0.1:5000``
+- Si el servidor local es diferente al default, haz de cambiarlo en el archivo 'script.js' en la linea ``fetch("http://127.0.0.1:5000/predict", {``
+- Abre el archivo 'index.html'
+- Rellena la caja de comentarios, pincha "Enviar"
+- Obtén tus resultados
