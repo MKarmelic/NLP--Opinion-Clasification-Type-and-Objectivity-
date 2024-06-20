@@ -39,3 +39,14 @@ Esta API podría utilizarse como punto intermedio en cualquier encuesta o secci�
 - Abre el archivo 'index.html'
 - Rellena la caja de comentarios, pincha "Enviar"
 - Obtén tus resultados
+
+### Imagenes referenciales
+*Web App homepage*
+
+![image](https://github.com/MKarmelic/NLP--Opinion-Clasification-Type-and-Objectivity-/assets/167670728/a89c07f6-c898-403e-94e3-09c6de96c3fb)
+
+*Web App Resultados*
+
+![image](https://github.com/MKarmelic/NLP--Opinion-Clasification-Type-and-Objectivity-/assets/167670728/85869f55-a5ae-4305-aa6d-1a4a0bddf3de)
+
+
